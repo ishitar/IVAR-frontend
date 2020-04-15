@@ -39,7 +39,6 @@ width:70px;
 justify-content: center;
 text-align: center;
 position: fixed;
-z-index: 999;
 .nav-item{
     color:var(--mainWhite); 
     margin-top:10px;

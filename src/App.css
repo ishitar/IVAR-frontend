@@ -27,7 +27,6 @@ body{
   float: right;
   height: 100%;
   color: white;
-  z-index: 1001;
 }
 
 .main-container{
