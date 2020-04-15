@@ -1,0 +1,70 @@
+.heading {
+    margin: 30px auto;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "Righteous", cursive
+}
+
+.login-form-container{
+    height: 100%;
+    width: 100%;
+}
+
+.login-form{
+    width: 30%;
+    margin: 100px auto;
+}
+
+.form-group {
+    color: white;
+    font-size: 0.9em;
+}
+
+.form-group input {
+    color: white;
+    background-color: #212121;
+    border-width: 1px;
+    border-color: white;
+}
+
+.form-group input.email {
+    letter-spacing: 2px;
+}
+
+.form-group input.password {
+    letter-spacing: 3px;
+}
+
+.login-button {
+    background-color: white;
+    color: black;
+    margin: 5px 0;
+    width: 100%;
+    font-size: 0.9em;
+    border-color: #212121;
+}
+
+.login-google-button {
+    background-color: red;
+    color: white;
+    margin: 5px 0;
+    width: 100%;
+    font-size: 0.9em;
+    border-color: #212121;
+}
+
+.login-button:hover {
+    background-color: #212121;
+    color: white;
+    border-color: white;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-google-button:hover {
+    background-color: #212121;
+    color: red;
+    border-color: red;
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
