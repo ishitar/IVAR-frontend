@@ -12,8 +12,8 @@ class App extends Component {
     render() {
         return (
             <div className="content">
-                <Header loggedIn={false}/>
-                <Navbar/>
+                <Header loggedIn={true}/>
+                <Navbar loggedIn={true}/>
                 <div className="main-content">
                     <div className="main-container">
                         <Switch>

@@ -1,33 +1,35 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
-class Navbar extends Component {
-    render() {
-        return (
-            <NavWrapper className="nav flex-column justify-content-center">
-                <Link to='/timeline' className="nav-item">
-                    <i className="fa fa-feed" />
-                </Link>
-                <Link to='/profile' className="nav-item">
-                    <i className="fa fa-user-o" />
-                </Link>
-                <Link to='/explore' className="nav-item">
-                    <i className="fa fa-search" />
-                </Link>
-                <Link to='/chat' className="nav-item">
-                    <i className="fa fa-comments-o" />
-                </Link>
-                <Link to='/notifications' className="nav-item">
-                    <i className="fa fa-bell-o" />
-                </Link>
-                <Link to='/post' className="nav-item">
-                    <i className="fa fa-edit"/>
-                </Link>
-            </NavWrapper>
-        );
-    }
-}
+const Navbar = ({loggedIn}) => (
+    <div>
+        {
+            loggedIn ?
+                <NavWrapper className="nav flex-column justify-content-center">
+                    <Link to='/timeline' className="nav-item">
+                        <i className="fa fa-feed"/>
+                    </Link>
+                    <Link to='/profile' className="nav-item">
+                        <i className="fa fa-user-o"/>
+                    </Link>
+                    <Link to='/explore' className="nav-item">
+                        <i className="fa fa-search"/>
+                    </Link>
+                    <Link to='/chat' className="nav-item">
+                        <i className="fa fa-comments-o"/>
+                    </Link>
+                    <Link to='/notifications' className="nav-item">
+                        <i className="fa fa-bell-o"/>
+                    </Link>
+                    <Link to='/post' className="nav-item">
+                        <i className="fa fa-edit"/>
+                    </Link>
+                </NavWrapper> : null
+        }
+    </div>
+
+);
 
 const NavWrapper = styled.div`
 margin-top: 5px 0 5px 5px;
