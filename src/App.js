@@ -1,21 +1,42 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Switch,Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './components/NavBar';
+import Navbar from './components/navbar/navbar.component';
+import Header from "./components/header/header.component";
+import {Route, Switch} from 'react-router-dom';
+import Landing from "./pages/landing/landing.component";
+import Login from "./components/login/login.component";
+import Register from "./components/register/register.component";
 
 class App extends Component {
-  render(){
-  return (
-    <React.Fragment>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="column"><NavBar /></div>
-        </div>
-      </div>      
-    </React.Fragment>
-  );
-}
+    render() {
+        return (
+            <div className="content">
+                <Header loggedIn={true}/>
+                <Navbar loggedIn={true}/>
+                <div className="main-content">
+                    <div className="main-container">
+                        <Switch>
+                            <Route
+                                exact
+                                path="/"
+                                component={Landing}
+                            />
+                            <Route
+                                exact
+                                path="/login"
+                                component={Login}
+                            />
+                            <Route
+                                exact
+                                path="/register"
+                                component={Register}/>
+                        </Switch>
+                    </div>
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;

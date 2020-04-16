@@ -1,0 +1,40 @@
+.header-bar {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	font-family: 'Dancing Script', cursive;
+	z-index: 1000;
+}
+
+.logo-link {
+	display: inline-flex;
+	margin: 10px;
+	width: 70px;
+	color: white;
+	text-align: center;
+	justify-content: flex-start;
+}
+
+.logo-link:hover {
+	text-decoration: none;
+	color: white;
+	text-shadow: 0px 0px 7px var(--lightGrey);
+}
+
+.signout-button {
+	display: inline-flex;
+	width: 92%;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.signout-button-icon {
+	color: white;
+	border: none;
+}
+
+.signout-button-icon:hover {
+	background-color: #212121;
+	text-shadow: 0 0 7px var(--lightGrey);
+}
