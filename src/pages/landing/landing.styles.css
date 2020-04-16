@@ -1,17 +1,17 @@
-.landing-page{
-    margin: 40px auto;
-    text-align: center;
-    font-family: "Righteous", cursive
+.landing-page {
+	margin: 40px auto;
+	text-align: center;
+	font-family: "Barlow Condensed", sans-serif;
 }
 
-.landing-page h1{
-    color: white;
+.landing-page h1 {
+	color: white;
 }
 
-.button-group{
-    margin: 10px 0;
+.button-group {
+	margin: 10px 0;
 }
 
-.button-group button{
-    margin: 10px;
+.button-group button {
+	margin: 10px;
 }
