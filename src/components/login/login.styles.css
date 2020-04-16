@@ -24,7 +24,7 @@
 
 .form-group input {
 	color: white;
-	background-color: #212121;
+	background-color: var(--mainBlack);
 	border-width: 1px;
 	border-color: white;
 }
@@ -43,7 +43,7 @@
 	margin: 5px 0;
 	width: 100%;
 	font-size: 0.9em;
-	border-color: #212121;
+	border-color: var(--mainBlack);
 }
 
 .login-google-button {
@@ -52,11 +52,11 @@
 	margin: 5px 0;
 	width: 100%;
 	font-size: 0.9em;
-	border-color: #212121;
+	border-color: var(--mainBlack);
 }
 
 .login-button:hover {
-	background-color: #212121;
+	background-color: var(--mainBlack);
 	color: white;
 	border-color: white;
 	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

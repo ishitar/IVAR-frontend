@@ -1,55 +1,55 @@
-:root{
-  --mainBackground:#212121;
-  --mainBlack:#0B0B0B;
-  --mainWhite:#FBFBFB;
-  --lightGrey:#A9ACA9;
-  --darkGrey:#2D2E2E;
-  --mainBlue:#2881d0;
+:root {
+	--mainBackground: #212121;
+	--mainBlack: #0b0b0b;
+	--mainWhite: #fbfbfb;
+	--lightGrey: #a9aca9;
+	--darkGrey: #2d2e2e;
+	--mainBlue: #2881d0;
 }
 
-body{
-  /*font-family: "Barlow Condensed", sans-serif !important;*/
-  background:var(--mainBackground) !important;
-  color:var(--mainWhite) !important;
+body {
+	/*font-family: "Barlow Condensed", sans-serif !important;*/
+	background: var(--mainBlack) !important;
+	color: var(--mainWhite) !important;
 }
 
-.content{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  box-sizing: border-box;
+.content {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-.main-content{
-  width: 95%;
-  display: inline-flex;
-  margin: auto;
-  float: right;
-  height: 100%;
-  color: white;
+.main-content {
+	width: 95%;
+	display: inline-flex;
+	margin: auto;
+	float: right;
+	height: 100%;
+	color: white;
 }
 
-.main-container{
-  height: 100%;
-  width: 100%;
+.main-container {
+	height: 100%;
+	width: 100%;
 }
 
-.text-title{
-  font-family: "Righteous", cursive;
-  color: var(--mainWhite)
+.text-title {
+	font-family: "Righteous", cursive;
+	color: var(--mainWhite);
 }
-.text-blue{
-  color:var(--mainBlue);
+.text-blue {
+	color: var(--mainBlue);
 }
-.text-black{
-  color:var(--mainBlack);
+.text-black {
+	color: var(--mainBlack);
 }
-.text-white{
-  color:var(--mainWhite);
+.text-white {
+	color: var(--mainWhite);
 }
-.text-dark-grey{
-  color:var(--darkGrey);
+.text-dark-grey {
+	color: var(--darkGrey);
 }
-.text-light-grey{
-  color:var(--lightGrey);
+.text-light-grey {
+	color: var(--lightGrey);
 }

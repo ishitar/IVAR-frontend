@@ -31,7 +31,7 @@ const Navbar = ({ loggedIn }) => (
 
 const NavWrapper = styled.div`
 	margin-top: 5px 0 5px 5px;
-	box-shadow: 2px 5px 5px 1px var(--mainWhite);
+	box-shadow: 6px 5px 5px 1px rgba(31, 31, 31, 1);
 	min-height: 100vh;
 	display: inline-flex;
 	width: 75px;
