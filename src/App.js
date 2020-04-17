@@ -11,6 +11,7 @@ import UserProfile from './pages/user-profile/user-profile.component';
 
 class App extends Component {
 	render() {
+		const username = 'Tak1';
 		return (
 			<div className="content">
 				<Header loggedIn={true} />
@@ -21,7 +22,7 @@ class App extends Component {
 							<Route exact path="/" component={Landing} />
 							<Route exact path="/login" component={Login} />
 							<Route exact path="/register" component={Register} />
-							<Route exact path="/Tak1" component={UserProfile} />
+							<Route exact path={`/${username}`} component={UserProfile} />
 						</Switch>
 					</div>
 				</div>

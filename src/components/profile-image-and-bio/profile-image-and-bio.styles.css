@@ -1,0 +1,44 @@
+.fit-content {
+	width: max-content;
+	justify-content: center;
+	z-index: 10000;
+	text-align: center;
+}
+
+.image-container {
+	height: 100%;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.edit-button-container {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: -60px;
+}
+
+.edit-button-container button {
+	font-size: 0.6em;
+	text-align: center;
+	justify-content: center;
+	color: rgba(255, 255, 255, 0.8);
+	border-color: #181818;
+}
+
+.edit-button-container button:hover {
+	background-color: #343434;
+	text-shadow: 0 0 7px var(--lightGrey);
+	border-color: #181818;
+}
+
+.bio-container {
+	width: 100%;
+	margin: 20px 0;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.container .row {
+	margin-top: 20px;
+}
