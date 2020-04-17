@@ -10,3 +10,7 @@
 .container {
 	width: 85%;
 }
+
+.container .row .col-4 {
+	margin-top: 20px;
+}
