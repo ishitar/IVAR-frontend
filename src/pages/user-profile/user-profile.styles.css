@@ -1,0 +1,16 @@
+.profile {
+	margin: 20px 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.container {
+	width: 85%;
+}
+
+.container .row .col-4 {
+	margin-top: 20px;
+}

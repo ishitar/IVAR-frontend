@@ -1,0 +1,40 @@
+.image-container {
+	height: 100%;
+	width: 100%;
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+
+	&:hover {
+		.image {
+			opacity: 0.2;
+		}
+
+		.likesAndComments {
+			display: flex;
+			opacity: 0.5;
+			color: white;
+			justify-content: center;
+		}
+	}
+
+	.likesAndComments {
+		font-size: 2em;
+		width: 80%;
+		position: absolute;
+		display: none;
+
+		.far {
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+	}
+
+	.image {
+		height: auto;
+		max-width: 100%;
+	}
+}

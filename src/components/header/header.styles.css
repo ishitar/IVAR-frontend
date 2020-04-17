@@ -35,6 +35,6 @@
 }
 
 .signout-button-icon:hover {
-	background-color: #212121;
+	background-color: #343434;
 	text-shadow: 0 0 7px var(--lightGrey);
 }

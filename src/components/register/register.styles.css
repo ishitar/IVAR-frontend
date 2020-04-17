@@ -3,14 +3,8 @@
 	font-size: 3em;
 	width: 100%;
 	text-align: center;
-	color: white;
+	color: rgba(255, 255, 255, 0.9);
 	font-family: "Barlow Condensed", sans-serif;
-}
-
-.register-form-container {
-	height: 100%;
-	width: 100%;
-	font-family: "Righteous", cursive;
 }
 
 .register-form {
@@ -19,7 +13,7 @@
 }
 
 .form-group {
-	color: white;
+	color: rgba(255, 255, 255, 0.7);
 	font-size: 0.9em;
 }
 
@@ -63,5 +57,5 @@
 	background-color: var(--mainBlack);
 	color: white;
 	border-color: white;
-	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.8), 0 6px 20px 0 #121212;
 }

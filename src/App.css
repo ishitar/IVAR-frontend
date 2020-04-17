@@ -8,9 +8,7 @@
 }
 
 body {
-	/*font-family: "Barlow Condensed", sans-serif !important;*/
-	background: var(--mainBlack) !important;
-	color: var(--mainWhite) !important;
+	background: #181818 !important;
 }
 
 .content {
@@ -21,12 +19,11 @@ body {
 }
 
 .main-content {
-	width: 95%;
+	width: 90%;
 	display: inline-flex;
 	margin: auto;
 	float: right;
 	height: 100%;
-	color: white;
 }
 
 .main-container {
