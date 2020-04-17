@@ -9,7 +9,7 @@ const Navbar = ({ loggedIn }) => (
 				<Link to="/timeline" className="nav-item">
 					<i className="fa fa-feed" />
 				</Link>
-				<Link to="/profile" className="nav-item">
+				<Link to="/Tak1" className="nav-item">
 					<i className="fa fa-user-o" />
 				</Link>
 				<Link to="/explore" className="nav-item">
